@@ -17,7 +17,7 @@ bot.on('guildMemberAdd', member => {
 
 
 bot.on('message', msg => {
-    if (msg.content === "bonjour" or "slt" or "Hello" or "hello" or "coucou" or "Coucou" or "salut" or "Salut"){
+    if (msg.content === "bonjour" || "slt" || "Hello" || "hello" || "coucou" || "Coucou" || "salut" || "Salut"){
         msg.reply("Heureux de te revoir parmis nous.")
     }
     if (msg.content.match(/salut/i)) {
